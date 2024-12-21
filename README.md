@@ -69,6 +69,18 @@ Type `yes` when prompted.
 
 ---
 
+## **Verify the Deployment**
+
+1. Log in to the [Azure Portal](https://portal.azure.com).
+2. Navigate to the resource group created (`rg-bastion-demo`).
+3. Confirm the following resources:
+   - Virtual Network with two subnets.
+   - Public IP for Bastion.
+   - Bastion Host.
+   - Virtual Machine.
+
+---
+
 ## **Connecting to the VM Using Azure Bastion**
 
 ### **1. Navigate to the VM in Azure Portal**
@@ -123,18 +135,6 @@ Resource Group
 ├── Bastion Host (Public IP + Bastion Subnet)
 ├── Virtual Machine (Ubuntu, VM Subnet)
 ```
-
----
-
-## **Verify the Deployment**
-
-1. Log in to the [Azure Portal](https://portal.azure.com).
-2. Navigate to the resource group created (`rg-bastion-demo`).
-3. Confirm the following resources:
-   - Virtual Network with two subnets.
-   - Public IP for Bastion.
-   - Bastion Host.
-   - Virtual Machine.
 
 ---
 

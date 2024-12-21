@@ -180,7 +180,12 @@ Type **`yes`** to confirm.
 
 ![image](https://github.com/user-attachments/assets/c887d7d0-f96f-47f3-a8b7-8e3d990bfa0f)
 
-- Go back to the **`Azure Portal`** to confirm the deletion by refreshing your browser window and then  go to the **`Resource Group`**.
+## **Verify the Deletion**
+
+- Go back to the **`Azure Portal`** to confirm the deletion by refreshing your browser window and then  go to the **`Resource Groups`**.
+
+![image](https://github.com/user-attachments/assets/a14ed3ca-67ce-4893-9991-8f8c3c30e28b)
+
 -----
 
 ## **Conclusion**

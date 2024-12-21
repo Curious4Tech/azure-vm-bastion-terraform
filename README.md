@@ -182,7 +182,7 @@ Type **`yes`** to confirm.
 
 ## **Verify the Deletion**
 
-- Go back to the **`Azure Portal`** to confirm the deletion by refreshing your browser window and then  go to the **`Resource Groups`**.
+- Go back to the **`Azure Portal`** to confirm the deletion by refreshing your browser window and then  go to the **`Resource Groups`**. You should see that your resource group named **`rg-bastion-demo`** has gone.
 
 ![image](https://github.com/user-attachments/assets/a14ed3ca-67ce-4893-9991-8f8c3c30e28b)
 

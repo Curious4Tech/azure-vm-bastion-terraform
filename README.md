@@ -1,8 +1,6 @@
 # azure-vm-bastion-terraform
 Deploy an Azure Virtual Machine with Azure Bastion using Terraform for secure, browser-based SSH/RDP connectivity without exposing public IPs.
 
-Here's the updated **GitHub README** file with instructions on how to connect to the VM using Azure Bastion:
-
 ---
 
 # Deploy Azure VM with Bastion Using Terraform

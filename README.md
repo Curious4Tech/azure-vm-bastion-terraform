@@ -102,7 +102,7 @@ Type **`yes`** when prompted.
 1. Go to the **`Resource Group`** you created (e.g., **`rg-bastion-demo`**).
 2. Select the **`Virtual Machine`** (e.g., **`linux-vm`**).
 
-![image](https://github.com/user-attachments/assets/ec3dd1b0-a722-4f06-9bbe-a76e5cbe2426)
+![image](https://github.com/user-attachments/assets/0e48214f-363e-43de-a132-09366d119440)
 
 ### **2. Use Azure Bastion for SSH**
 1. In the VM overview page, click on the **Connect** button.

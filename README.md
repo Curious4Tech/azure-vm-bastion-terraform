@@ -92,7 +92,7 @@ Type **`yes`** when prompted.
    - Bastion Host.
    - Virtual Machine.
 
-![image](https://github.com/user-attachments/assets/f8ed6cea-96b7-4ff9-8439-a4f6310f3a2b)
+![image](https://github.com/user-attachments/assets/2a83c8d1-8f6e-4719-9234-ab2b1f36b255)
 
 ---
 

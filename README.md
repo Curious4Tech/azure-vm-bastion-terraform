@@ -42,8 +42,12 @@ cd azure-vm-bastion-terraform
 1. Log in to Azure using the Azure CLI:
    ```bash
    az login
+   #Alternatively
+    az login --tenant your_tenant_id
    ```
-2. Set your desired subscription:
+![image](https://github.com/user-attachments/assets/706cac0f-5910-4e0d-b01d-77f722b6e66a)
+
+2. Set your desired subscription if not set or want to change it from the previous step (**`step 1.`**):
    ```bash
    az account set --subscription "YOUR_SUBSCRIPTION_ID"
    ```
@@ -65,7 +69,7 @@ Deploy the resources by applying the Terraform configuration:
 ```bash
 terraform apply
 ```
-Type `yes` when prompted.
+Type **`yes`** when prompted.
 
 ---
 
@@ -85,16 +89,16 @@ Type `yes` when prompted.
 
 ### **1. Navigate to the VM in Azure Portal**
 1. Open the [Azure Portal](https://portal.azure.com).
-2. Go to the **Resource Group** you created (e.g., `rg-bastion-demo`).
-3. Select the **Virtual Machine** (e.g., `linux-vm`).
+2. Go to the **`Resource Group`** you created (e.g., **`rg-bastion-demo`**).
+3. Select the **`Virtual Machine`** (e.g., **`linux-vm`**).
 
 ### **2. Use Azure Bastion for SSH**
 1. In the VM overview page, click on the **Connect** button.
 2. Choose **Bastion** from the connection options.
 3. Provide the following details:
-   - **Username**: Use the `admin_username` you specified in the Terraform script (e.g., `azureuser`).
-   - **Password**: Use the `admin_password` you specified in the Terraform script (e.g., `P@ssw0rd123!`).
-4. Click **Connect**.
+   - **`Username`**: Use the `admin_username` you specified in the Terraform script (e.g., `azureuser`).
+   - **`Password`**: Use the `admin_password` you specified in the Terraform script (e.g., `P@ssw0rd123!`).
+4. Click **`Connect`**.
 
 ### **3. Secure Connection**
 Azure Bastion establishes a secure connection to your VM directly in your browser without requiring a public IP address or additional configuration.
@@ -104,12 +108,12 @@ Azure Bastion establishes a secure connection to your VM directly in your browse
 ## **Terraform Configuration**
 
 The main Terraform configuration is in the `main.tf` file and contains the following:
-1. **Resource Group**
-2. **Virtual Network** with two subnets:
+1. **`Resource Group`**
+2. **`Virtual Network`** with two subnets:
    - `subnet-vm`: For the VM.
    - `AzureBastionSubnet`: Required for Azure Bastion.
-3. **Azure Bastion Host**
-4. **Linux Virtual Machine**
+3. **`Azure Bastion Host`**
+4. **`Linux Virtual Machine`**
 
 ---
 
@@ -144,7 +148,7 @@ To delete all resources created by Terraform, run:
 ```bash
 terraform destroy
 ```
-Type `yes` to confirm.
+Type **`yes`** to confirm.
 
 -----
 

@@ -174,6 +174,13 @@ terraform destroy
 ```
 Type **`yes`** to confirm.
 
+![image](https://github.com/user-attachments/assets/a7ea9d37-8fbc-48b1-b5f5-bd0e463428d9)
+
+- Now, all resources are successfully destroyed
+
+![image](https://github.com/user-attachments/assets/c887d7d0-f96f-47f3-a8b7-8e3d990bfa0f)
+
+- Go back to the **`Azure Portal`** to confirm the deletion by refreshing your browser window and then  go to the **`Resource Group`**.
 -----
 
 ## **Conclusion**

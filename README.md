@@ -76,6 +76,10 @@ Type **`yes`** when prompted.
 
 ![image](https://github.com/user-attachments/assets/b91efbad-c802-4486-97c7-b058576c413d)
 
+- Successfully created!
+
+![image](https://github.com/user-attachments/assets/28716251-7102-4268-a5d9-5dd675339f69)
+
 ---
 
 ## **Verify the Deployment**
@@ -88,25 +92,40 @@ Type **`yes`** when prompted.
    - Bastion Host.
    - Virtual Machine.
 
+![image](https://github.com/user-attachments/assets/f8ed6cea-96b7-4ff9-8439-a4f6310f3a2b)
+
 ---
 
 ## **Connecting to the VM Using Azure Bastion**
 
 ### **1. Navigate to the VM in Azure Portal**
-1. Open the [Azure Portal](https://portal.azure.com).
-2. Go to the **`Resource Group`** you created (e.g., **`rg-bastion-demo`**).
-3. Select the **`Virtual Machine`** (e.g., **`linux-vm`**).
+1. Go to the **`Resource Group`** you created (e.g., **`rg-bastion-demo`**).
+2. Select the **`Virtual Machine`** (e.g., **`linux-vm`**).
+
+![image](https://github.com/user-attachments/assets/ec3dd1b0-a722-4f06-9bbe-a76e5cbe2426)
 
 ### **2. Use Azure Bastion for SSH**
 1. In the VM overview page, click on the **Connect** button.
 2. Choose **Bastion** from the connection options.
+
+![image](https://github.com/user-attachments/assets/202122e5-a7b2-4ef1-a384-2bd42d72dd6b)
+
 3. Provide the following details:
+   - **`Authentication Type`**: Choose `VM Password`.
    - **`Username`**: Use the `admin_username` you specified in the Terraform script (e.g., `azureuser`).
    - **`Password`**: Use the `admin_password` you specified in the Terraform script (e.g., `P@ssw0rd123!`).
-4. Click **`Connect`**.
+5. Click **`Connect`**.
+
+![image](https://github.com/user-attachments/assets/1d2ceffb-b190-4201-9ca6-7b89b1a08c4c)
 
 ### **3. Secure Connection**
 Azure Bastion establishes a secure connection to your VM directly in your browser without requiring a public IP address or additional configuration.
+
+![image](https://github.com/user-attachments/assets/9749b647-fc21-4b67-9eff-551f6b011534)
+
+- Now you can use your **`VM securely`** on your browser.
+
+![image](https://github.com/user-attachments/assets/b30a6e9f-416a-4cdb-8beb-0f60150f389b)
 
 ---
 

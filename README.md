@@ -57,12 +57,15 @@ Run the following command to initialize Terraform in this directory:
 ```bash
 terraform init
 ```
+![image](https://github.com/user-attachments/assets/8e2cd834-68b7-4071-91a7-08da57e3bc8d)
 
 ### **4. Plan the Deployment**
 Generate a plan to preview the resources that will be created:
 ```bash
 terraform plan
 ```
+
+![image](https://github.com/user-attachments/assets/b53385e6-1b06-40ae-94a2-586292f8e112)
 
 ### **5. Apply the Configuration**
 Deploy the resources by applying the Terraform configuration:

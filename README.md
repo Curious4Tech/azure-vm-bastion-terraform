@@ -74,6 +74,8 @@ terraform apply
 ```
 Type **`yes`** when prompted.
 
+![image](https://github.com/user-attachments/assets/b91efbad-c802-4486-97c7-b058576c413d)
+
 ---
 
 ## **Verify the Deployment**

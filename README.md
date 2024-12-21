@@ -47,7 +47,7 @@ cd azure-vm-bastion-terraform
    ```
 ![image](https://github.com/user-attachments/assets/706cac0f-5910-4e0d-b01d-77f722b6e66a)
 
-2. Set your desired subscription if not set or want to change it from the previous step (**`step 1.`**):
+2. Set your desired subscription if not set in the previous step (**`step 1.`**) or want to change it :
    ```bash
    az account set --subscription "YOUR_SUBSCRIPTION_ID"
    ```
